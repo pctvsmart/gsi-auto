@@ -5,12 +5,12 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://dl-res.flymeos.com/Firmware/Flyme/16xs/7.3.1.0/intl/20190727193914/748b6cff/update.zip
-  ROM_NAME: FlymeOs
+  ROM_URL: https://sourceforge.net/projects/crdroid/files/X00TD/6.x/crDroidAndroid-10.0-20200708-X00TD-v6.8.zip
+  ROM_NAME: Crdroid6.7
   BUILD_AB: true
   BUILD_AONLY: false
-  ROM_AONLY: flymeos2.7z
-  ROM_AB: flymeos26AB.7z
+  ROM_AONLY: crdroid.7z
+  ROM_AB: crdroidAB.7z
 
 jobs:
   build:
