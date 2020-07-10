@@ -5,12 +5,12 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://sourceforge.net/projects/crdroid/files/X00TD/6.x/crDroidAndroid-10.0-20200708-X00TD-v6.8.zip
-  ROM_NAME: Crdroid6.7
+  ROM_URL: http://downloads.oppo.com.s3.amazonaws.com/firmware/CPH2001/CPH2001PUEX_11_OTA_0310_all_BN3qZDjsZVFa.ozip
+  ROM_NAME: ColorOs7
   BUILD_AB: true
   BUILD_AONLY: false
-  ROM_AONLY: crdroid.7z
-  ROM_AB: crdroidAB.7z
+  ROM_AONLY: coloros.7z
+  ROM_AB: colorosAB.7z
 
 jobs:
   build:
